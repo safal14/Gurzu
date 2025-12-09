@@ -1,0 +1,30 @@
+*{
+   margin: 0px;  
+    padding: 0px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 24px;
+    color: rgb(251, 5, 5);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+body{
+ /* text-align: center; */
+ display: inline-block;
+    max-width: 1024px;
+    background-color: rgb(237, 245, 245);
+    margin: 12px;
+    padding: 12px;
+line-height: 25px;
+
+ }
+ p{
+    padding-bottom: 10px;
+}
+a:hover {
+    color: rgb(238, 7, 73);
+    text-decoration: underline;
+}
