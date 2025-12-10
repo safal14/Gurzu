@@ -5,20 +5,29 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    font-size: 24px;
+    font-size: 32px;
     color: rgb(251, 5, 5);
     text-align: center;
     margin: auto;
     padding: 20px;
+    line-height: 35px;
+}
+h2{
+    font-size: 28px;
+    line-height: 35px;
+}
+h3{
+    font-size: 20px;
+    padding-bottom: 12px;
+    line-height: 35px;
 }
 body{
-    /* align-items: center; */
- /* text-align: center; */
- display: inline-block;
-    max-width: 1024px;
+ /* text-align: center;
+ display: inline-block; */
+    max-width: 1920px;
     background-color: rgb(237, 245, 245);
-    margin: 12px;
-    padding: 12px;
+    /* margin: 12px; */
+    /* padding: 12px; */
 line-height: 25px;
 
  }
