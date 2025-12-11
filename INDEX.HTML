@@ -12,12 +12,26 @@
     <link rel="stylesheet" href="./Assests/css/footer.css">
     <link rel="stylesheet" href="./Assests/css/index.css">
     <link rel="stylesheet" href="./Assests/css/table.css">
+    <link rel="stylesheet" href="./Assests/css/header.css">
+    <!-- <link rel="stylesheet" href="./Assests/css/hero.css"> -->
 
 <body>
     <div class="wrapper">
-        <div class="hero">
+        <!-- Start of hero section -->
+         <div class="hero" id="hero">
+            <div class="navbar">
+         <img src="./Assests/images/logo.png" alt="logo" class="logo">
+         <ul>
+                   <li>  <a href="#hero">Home</a>  </li> 
+                   <li> <a href="#gallery">Gallery</a></li>
+                   <li><a href="#feedback">Feedback</a></li>
+                     </ul>
+                <button class="btn" onclick="alert('Subscribed')">Subscribe</button>
+ </div>
         <h1>Clone the Instagram UI with HTML and CSS (No JS)</h1>
-        <section class="section-table bm">
+        <button class="btn">Join Us</button>
+        
+        <!-- <section class="section-table bm">
             <p class="table-title">Table of Content</p>
             <table class="content-table">
                 <tr>
@@ -56,8 +70,8 @@
                     <td>8</td>
                     <td>Feedback</td>
                 </tr>
-            </table>
-        </section>
+            </table> 
+        </section> -->
         <section class="section section--introduction bm">
             <p class="section__paragraph">Instagram has one of the most recognizable and polished UIs on the web: a
                 clean feed, familiar icons, and a mobile-first layout that feels natural on any
@@ -87,7 +101,11 @@
                 real
                 feed.
                 The goal is to master <b>structure and styling</b>, not functionality. </p>
-            <h3 class="section__header">Who is this tutorial for?</h3>
+           
+        </section>
+</div>
+        <section class="section section--project bm">
+             <h3 class="section__header">Who is this tutorial for?</h3>
             <p class="section__paragraph">This tutorial is perfect if you:</p>
             <ul class="section__list">
                 <li class="section__list-item">Know basic HTML and CSS and want to build a realistic UI.</li>
@@ -99,9 +117,6 @@
             <p class="section__paragraph">Before you start, you should be comfortable with:</p>
             <p class="section__paragraph">A simple <b>code editor </b> (VS Code, Sublime, etc.) and a <b>modern browser
                 </b>(Chrome, Firefox, Edge, Safari) are enough.</p>
-        </section>
-</div>
-        <section class="section section--project bm">
             <h2 class="section__heading">Project Overview — What We’re Building (Mobile-First UI)</h2>
             <p class="section__para">Before writing any code, let’s take a clear look at the layout we’re
                 going to build. Instagram is designed mobile-first, and that’s exactly
@@ -335,7 +350,9 @@
             </ol>
             <h3 class="section__complete">✔ Feed Card Completed</h3>
         </section>
+       <section class="Gallery" id="gallery">
 
+       </section>
         <section class="section section--footer bm">
             <p class="footer__text">You can get the full source code on our <a href="https://github.com/safal14/Gurzu"
                     target="_blank">Github</a>.</p>
@@ -346,7 +363,7 @@
                     target="_blank">https://www.djamware.com.</a></p>
         </section>
         <h2 class="feedback__title">Please give your Feedback:</h2>
-        <section class="feedback bm">
+        <section class="feedback bm" id="feedback">
 
             <form class="feedback__form" action="Feedback">
 
@@ -382,7 +399,7 @@
                 <label class="feedback__label" for="feedback-comment">Give your feedback:</label>
                 <textarea class="feedback__textarea" name="feedback-comment" id="feedback-comment"></textarea>
 
-                <input class="feedback__submit" type="button" onclick="alert('Thank You for your feedback')"
+                <input class="feedback__submit btn" type="button" onclick="alert('Thank You for your feedback')"
                     value="Submit">
             </form>
         </section>
@@ -404,6 +421,7 @@
         </div>
     </section>
     </div>
+    
 </body>
 
 </html>

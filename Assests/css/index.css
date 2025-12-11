@@ -8,8 +8,9 @@ h1 {
     font-size: 28px;
     color: rgb(251, 5, 5);
     text-align: center;
-    margin: auto;
+    margin: 15px auto;
     line-height: 35px;
+    /* padding: 12px 0; */
 }
 h2{
     font-size: 24px;

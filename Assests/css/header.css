@@ -1,0 +1,37 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    border-radius: 12px;
+    box-shadow: 6px 7px 0 0 rgba(0, 0, 0, 0.1);
+}
+.hero .navbar img{
+      height: 44px;
+    width: 253px;
+
+}
+.hero .navbar ul {
+    display: flex;
+        justify-content: space-between;
+        gap: 55px;
+
+}
+.hero .navbar ul li, a{
+color: rgb(5, 7, 7);
+font-weight: 650;
+    text-decoration: none;
+    list-style: none;
+    align-items: baseline;
+}
+.hero .navbar a:hover{
+    text-decoration: none;
+    color: black;
+      border-bottom: 4px solid #007bff;
+     
+}
+.navbar a:hover::after {
+  width: 100%;     
+   direction: ltr;  
+}

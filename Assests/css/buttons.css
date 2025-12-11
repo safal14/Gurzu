@@ -1,16 +1,30 @@
-
-.feedback__submit {
-    display: inline-block;
+.btn{
+display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    background-color: #0056b3;
+    color: white;
+}
+.feedback__submit {
+    
+    background-color: #007bff;
+    color: #fff;
 }
 
-.feedback__submit:hover {
-    background-color: #0056b3;
+.feedback__submit, .btn:hover {
+    
     transform: scale(1.05);
+}
+.navbar .btn{
+    background-color: #fa042d;
+    color: #fff;
+    border-radius: 15px;
+}
+.navbar .btn:hover{
+    color: black;
+    transform: scale(1.05);
+    background-color:aliceblue;
 }
