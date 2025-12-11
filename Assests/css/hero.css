@@ -6,8 +6,9 @@
   justify-content: flex-start;       /* content starts from top */
   color: rgb(12, 12, 12);
   position: relative;
-  padding: 20px 20px;                /* space from top/edges */
+  padding: 20px 0;                /* space from top/edges */
   box-sizing: border-box;
+  align-items: center;
 }
 
 /* Hero Heading */
