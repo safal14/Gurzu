@@ -1,0 +1,10 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+    padding-bottom: 12px;
+}
+#uu img:hover{
+  transform: scale(2);
+}

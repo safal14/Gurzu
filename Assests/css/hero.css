@@ -1,0 +1,39 @@
+/* Hero Section */
+.hero {
+  height: 100%;
+  display: flex;
+  flex-direction: column;            /* stack navbar + heading + button */
+  justify-content: flex-start;       /* content starts from top */
+  color: rgb(12, 12, 12);
+  position: relative;
+  padding: 20px 20px;                /* space from top/edges */
+  box-sizing: border-box;
+}
+
+/* Hero Heading */
+.hero h1 {
+  font-size: 3rem;
+  /* margin: 30px 0 20px 0;             margin between navbar and heading */
+  line-height: 1.2;
+  font-weight: 600;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
+
+/* Hero "Join Us" Button */
+.hero-btn {
+ padding: 12px 28px;           
+  font-size: 20px;            
+  border-radius: 6px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+    width: 129px;          
+}
+
+.hero > .btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
