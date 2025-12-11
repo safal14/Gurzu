@@ -1,11 +1,7 @@
 .feedback {
     width: 100%;
         max-width: 1920px;
- /* constrain width */
-    /* margin: 20px auto;
-    padding: 20px; */
     background-color: #f6bdbd;
-    /* border-radius: 10px; */
     font-family: 'Inter', sans-serif;
 }
 
@@ -19,7 +15,6 @@
     display: inline-block;
     width: 48%;       /* almost half */
     box-sizing: border-box;
-    margin-right: 2%; /* spacing between columns */
 }
 
 .feedback__choose {
@@ -36,8 +31,7 @@
 .feedback__input,
 .feedback__textarea {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
+    padding: 4px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;

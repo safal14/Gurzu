@@ -10,30 +10,21 @@ img{
   margin: 20px auto;
   align-items: center;
 align-content: center;
-padding-left: 250px;
+   display: flex;
+flex-wrap: wrap;
+   justify-content: space-evenly;
 }
-.card-card1, .card-card2, .card-card3{
-   float: left;
+.card-card{
     border-radius: 7px;
     width: 235px;
     height: 300px;
     background-color: white;
-    margin: 0 54px;
-    padding: 1px;
     text-align: center;
     box-shadow: 6px 7px 0 0 rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: 0.5s;
 } 
-.card-card1:hover{
-  background-color: white;
-    transform: scale(1.05);
-}
-.card-card2:hover{
-  background-color: white;
-    transform: scale(1.05);
-}
-.card-card3:hover{
+.card-card:hover{
   background-color: white;
     transform: scale(1.05);
 }
@@ -44,7 +35,5 @@ padding-left: 250px;
   text-align: left;
 }
 .card-head{
-    padding-left: 52px; ;
   color: #9e4e9d;
-  margin-bottom: 20px;
-}
+  }
