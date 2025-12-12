@@ -2,6 +2,7 @@
 .hero {
   height: 100%;
   display: flex;
+  background:url(/Gurzu/Assests/images/background.jpg) no-repeat center center / cover;
   flex-direction: column;            /* stack navbar + heading + button */
   justify-content: flex-start;       /* content starts from top */
   color: rgb(12, 12, 12);
@@ -9,6 +10,7 @@
   padding: 20px 0;                /* space from top/edges */
   box-sizing: border-box;
   align-items: center;
+  
 }
 
 /* Hero Heading */
